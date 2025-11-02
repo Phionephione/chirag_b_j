@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { PERSONAL_INFO, GithubIcon, LinkedInIcon, DYNAMIC_TITLES } from '../constants';
 
@@ -34,14 +33,14 @@ const Header: React.FC = () => {
 
 
   return (
-    <header className="py-20 md:py-32 text-center animate-fade-in-up flex flex-col items-center justify-center min-h-[80vh]">
-      <p className="mb-4 text-xl sm:text-2xl md:text-3xl text-blue-400 font-medium">
+    <header className="py-20 sm:py-24 md:py-28 text-center animate-fade-in-up flex flex-col items-center justify-center min-h-[50vh] lg:min-h-[75vh]">
+      <p className="mb-4 text-lg sm:text-xl md:text-2xl text-blue-400 font-medium">
         Welcome To My Digital Portfolio
       </p>
-      <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white tracking-tight">
+      <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-white tracking-tight">
         {PERSONAL_INFO.name}
       </h1>
-       <p className="mt-6 text-lg sm:text-xl md:text-2xl text-gray-300 h-8">
+       <p className="mt-6 text-lg sm:text-xl md:text-2xl text-gray-300 h-10">
         I'm an&nbsp;
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400 font-semibold border-r-2 border-teal-400 animate-blink pr-1">
           {displayedText}
