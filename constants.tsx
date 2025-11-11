@@ -98,6 +98,14 @@ export const PROJECTS: Project[] = [
   githubUrl: "https://github.com/Phionephione/invisibility-cloak-app",
   liveUrl: "https://invisibility-cloak-app.onrender.com",
   },
+  {
+  "title": "React Snake Game",
+  "description": "A classic snake game built with React, HTML Canvas, and TypeScript.",
+  "tags": ["React", "TypeScript", "HTML", "Canvas", "JavaScript"],
+  "image": "/snake.jpg",
+  "githubUrl": "https://github.com/Phionephione/react-snake-game",
+  "liveUrl": "https://react-snake-game-tawny.vercel.app/"
+},
 ];
 
 // FIX: Add and export missing EDUCATION constant
