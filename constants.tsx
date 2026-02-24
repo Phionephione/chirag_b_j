@@ -59,6 +59,10 @@ export const CERTIFICATIONS: Certification[] = [
     title: "Software Engineering From EA (Job Simulation)",
     description: "Patched a bugfix and optimized the EA Sports College Football codebase by implementing an improved data structure.",
   },
+   {
+    title: "Building ai powered applications with python from IBM",
+    description: "An intensive, hands-on program designed to equip learners with the skills to develop, deploy, and manage AI applications.",
+  },
   {
     title: "Generative AI Tools",
     description: "Gained foundational knowledge and practical skills in utilizing various Generative AI tools and platforms.",
@@ -75,12 +79,12 @@ export const CERTIFICATIONS: Certification[] = [
 
 export const PROJECTS: Project[] = [
   {
-    title: "Student Assistant Chatbot",
-    description: "A helpful chatbot designed to assist students by answering common questions, providing resources, and offering guidance on academic matters.",
-    tags: ["Python", "NLTK", "Tkinter", "AI Chatbot"],
-    image: "/chat.jpg",
-    githubUrl: "https://github.com/Phionephione/Student-Assistant-Chatbot",
-    liveUrl: "https://student-assistant-chatbot-8u56.onrender.com",
+    title: "Strategic_AI_OS",
+    description: "Models decade-scale future scenarios using probabilistic forecasting and uncertainty modeling.",
+    tags: ["Python", "javascript","react"],
+    image: "/st.jpg",
+    githubUrl: "https://github.com/Phionephione/Strategic_AI_OS.git",
+    liveUrl: "https://strategic-ai.vercel.app/",
   },
   {
     title: "WeebVibe",
@@ -91,20 +95,20 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://weebvibe-shtg.onrender.com/",
   },
   {
-  title: "Invisibility Cloak App",
-  description: "A computer vision application that creates a real-time 'invisibility cloak' effect using OpenCV to perform color detection and background masking.",
-  tags: ["Python", "OpenCV", "Computer Vision"],
-  image: "/hp.jpg",
-  githubUrl: "https://github.com/Phionephione/invisibility-cloak-app",
-  liveUrl: "https://invisibility-cloak-app.onrender.com",
-  },
+  title: "Voidspeak",
+  description: "An anonymous confession platform featuring real-time AI moderation. Built to provide a safe space for sharing thoughts, it utilizes Google Gemini AI to analyze toxicity levels across multiple languages and slang, providing admins with an automated intensity score (0-10).",
+  tags: ["Flask", "Python", "PostgreSQL", "Gemini AI", "Bootstrap"],
+  image: "/vo.jpg", 
+  githubUrl: "https://github.com/Phionephione/voidspeak",
+  liveUrl: "https://voidspeak.onrender.com/",
+},
   {
-  "title": "React Snake Game",
-  "description": "A classic snake game built with React, HTML Canvas, and TypeScript.",
-  "tags": ["React", "TypeScript", "HTML", "Canvas", "JavaScript"],
-  "image": "/snake.jpg",
-  "githubUrl": "https://github.com/Phionephione/react-snake-game",
-  "liveUrl": "https://react-snake-game-tawny.vercel.app/"
+  "title": "JOB AI",
+  "description": "Find your dream job across the entire web.",
+  "tags": ["PYTHON","React", "TypeScript", "HTML", "Canvas", "JavaScript"],
+  "image": "/jo.jpg",
+  "githubUrl": "https://github.com/Phionephione/Job-ai.git",
+  "liveUrl": "https://job-ai-sigma.vercel.app/"
 },
 ];
 
