@@ -96,11 +96,11 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "WeebVibe",
-    description: "A web application for anime and manga enthusiasts to discover new series, track their watch progress, and engage with a community of fans.",
-    tags: ["React", "Node.js", "MongoDB", "MERN"],
+    description: "A web application for people do detect weather they have skin cancer using only the image through AI.",
+    tags: ["React", "Html", "CSS"],
      image: "/op.jpg",
-    githubUrl: "https://github.com/Phionephione/WeebVibe",
-    liveUrl: "https://weebvibe-shtg.onrender.com/",
+    githubUrl: "https://github.com/Phionephione/skin-cancer-ai.git",
+    liveUrl: "https://skin-cancer-ai-z8o4.onrender.com/",
   },
   {
   title: "Voidspeak",
