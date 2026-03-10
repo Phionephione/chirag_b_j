@@ -95,7 +95,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://strategic-ai.vercel.app/",
   },
   {
-    title: "WeebVibe",
+    title: "Skin AI Pro",
     description: "A web application for people do detect weather they have skin cancer using only the image through AI.",
     tags: ["React", "Html", "CSS"],
      image: "/op.jpg",
