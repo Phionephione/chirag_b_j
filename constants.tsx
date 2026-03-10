@@ -75,6 +75,14 @@ export const CERTIFICATIONS: Certification[] = [
     title: "Web Development From City of Moreton Bay (Job Simulation)",
     description: "Completed a job simulation involving website planning and creation. Created a sitemap and userflow using a diagram creation tool. Used HTML & CSS to create a landing page.",
   },
+    {
+    title: "Datacom - Software Development (Job Simulation)",
+    description: "Completed a simulation focussed on how the software development team at Datacom approaches their work",
+  },
+    {
+    title: "Tata - GenAI Powered Data Analytics Job Simulation",
+    description: "Completed a job simulation involving website planning and creation using AI.",
+  },
 ];
 
 export const PROJECTS: Project[] = [
